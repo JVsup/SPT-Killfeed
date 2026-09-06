@@ -1,0 +1,13 @@
+# Historical reference sources are local and immutable.
+resources/*
+!resources/.gitkeep
+
+# Machine-local SPT path configuration.
+Directory.Build.props.user
+
+# IDE, build, and package output.
+.vs/
+**/bin/
+**/obj/
+artifacts/
+dist/
